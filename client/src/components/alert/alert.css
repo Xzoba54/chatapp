@@ -1,0 +1,40 @@
+.alert__container {
+  position: absolute;
+  top: 8px;
+  background-color: rgb(243, 243, 243);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  animation: dropdown 0.2s ease-in;
+}
+.alert__container-title {
+  color: rgb(27, 27, 27);
+}
+.alert__container-text {
+  margin: 0.5rem;
+  font-size: 20px;
+  font-weight: 800;
+}
+.alert__container button {
+  padding: 0.5rem 2rem;
+  border: none;
+  font-size: 20px;
+  width: 100%;
+  background-color: rgb(47, 156, 184);
+  border-radius: 8px;
+  color: rgb(228, 228, 228);
+  margin-top: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+@keyframes dropdown {
+  0% {
+    top: -100px;
+  }
+  100% {
+    top: 8px;
+  }
+}

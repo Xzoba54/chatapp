@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  transition: 0.3s;
+  outline: none;
+}
+body {
+  background-color: #1d1f27;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.padding__big {
+  padding: 3rem;
+}
+.margin__big {
+  margin: 3rem;
+}
+.svg__background {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
